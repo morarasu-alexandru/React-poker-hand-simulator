@@ -1,12 +1,33 @@
 import React from 'react'
-import DuckImage from '../assets/Duck.jpg'
 import './HomeView.scss'
 
-export const HomeView = () => (
-  <div>
-    <h4>Welcome!</h4>
-    <img alt='This is a duck, because Redux!' className='duck' src={DuckImage} />
-  </div>
-)
+
+class HomeView extends React.Component {
+
+    constructor(props) {
+      super(props);
+
+      this.state = {
+        test: 'test',
+        ceva: 'altceva'
+      }
+    }
+    click(event) {
+      console.log(this.state.test);
+      console.log(event);
+    }
+
+    render() {
+      return (
+      <div className="Aplication">
+        <div className="MainWrapper"></div>
+        <div className="MainOdds"></div>
+        <div className="HandSelector"></div>
+        <button onClick={event => this.click(event)}>Click me!</button>
+      </div>
+      )
+    }
+}
 
 export default HomeView
+
