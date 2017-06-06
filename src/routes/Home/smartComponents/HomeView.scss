@@ -8,4 +8,5 @@
 .Aplication { width: calc(100% - 10px); height: 400px; margin: 5px; padding: 10px; border: 1px dashed darkblue; }
   .MainWrapper { display: inline-block; width: 70%; height: 200px; border: 1px dashed red; background: rgba(0,0,0,0.1); }
   .MainOdds { display: inline-block; width: 29%; min-height: 200px; border: 1px dashed black; margin-left: 1%; }
-  .HandSelector { display: inline-block; width: 100%; height: 100px; margin-top: 10px; border: 1px dashed black; }
+  .HandInsert { display: inline-block; width: 100%; height: 100px; margin-top: 10px; border: 1px dashed black; }
+    .HandInsert .Title { padding: 0.25em 1em; }
