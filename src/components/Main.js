@@ -25,7 +25,7 @@ class Main extends React.Component {
       <div className='Aplication'>
         <div className='MainWrapper'>a</div>
         <div className='MainOdds'>b</div>
-        <HandInsert deck={this.state.deck} />
+        <HandInsert var={this.state} />
         <button onClick={event => this.click(event)}>Click me!</button>
       </div>)
   }

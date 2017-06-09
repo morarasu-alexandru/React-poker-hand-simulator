@@ -6,9 +6,8 @@ const HandInsert = (props) => {
   return (
     <div className='HandInsert'>
       <h2 className='Title'>Hand Insert</h2>
-      <p>d</p>
+      <p>{ props.var.altceva }</p>
       <HandInsertInput />
-      <p> {props.ceva} </p>
     </div>
   );
 };
